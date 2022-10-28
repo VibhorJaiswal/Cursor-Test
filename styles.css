@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F6F6C9;
+    overflow: hidden;
+}
+
+#cursorDiv{
+    height: 50px;
+    width: 150px;
+    background-color: #BAD1C2;
+    color: #153462;
+    margin: 10px;
+    display: grid;
+    place-items: center;
+}
+
+#Header{
+    width: 100vw;
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    place-items: center;
+    color: #4FA095;
+    font-family: 'Ubuntu', sans-serif;
+}
