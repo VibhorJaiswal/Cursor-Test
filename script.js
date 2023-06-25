@@ -46,3 +46,16 @@ cursorTypes.forEach((item) => {
 
   div.appendChild(cursorTestDiv);
 });
+
+
+function togglemode() {
+
+  const themeStyle = document.getElementById("theme-style");
+  const currentTheme = themeStyle.getAttribute("href");
+
+  if (currentTheme === "light.css") {
+    themeStyle.setAttribute("href", "dark.css");
+  } else {
+    themeStyle.setAttribute("href", "light.css");
+  }
+}
