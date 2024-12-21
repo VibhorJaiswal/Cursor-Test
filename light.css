@@ -1,9 +1,10 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: #808080;
-    overflow: hidden;
+    /* background-color: #808080; */
+    overflow-x: hidden;
     transition: background-color 0.5s ease;
+    /* padding: 5px; */
 }
 
 #cursorDiv{
@@ -15,6 +16,7 @@ body{
     display: grid;
     place-items: center;
     transition: background-color 0.5s ease;
+    border: 1px black solid;
 }
 
 #Header{
@@ -28,3 +30,5 @@ body{
     font-family: 'Ubuntu', sans-serif;
     transition: background-color 0.5s ease;
 }
+
+  
