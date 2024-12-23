@@ -59,5 +59,3 @@ function togglemode() {
     themeStyle.setAttribute("href", "light.css");
   }
 }
-
-console.log('here...')
